@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import Carousal from "../Components/Carousal";
+import Carousal from "../components/Carousal";
 
 // import Button from "../Button/index";
 
