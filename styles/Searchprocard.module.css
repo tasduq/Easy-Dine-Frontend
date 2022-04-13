@@ -1,0 +1,15 @@
+.imgcontainersearchprocard {
+  position: relative;
+}
+
+.imgstylessearchoprocard {
+  display: initial;
+  position: absolute;
+  inset: 0px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 0px;
+}
