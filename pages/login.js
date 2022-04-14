@@ -82,7 +82,7 @@ const Login = () => {
     return test;
   };
   return (
-    <div>
+    <div className="container">
       {console.log(values)}
       <div>
         <div className="row mt-5">

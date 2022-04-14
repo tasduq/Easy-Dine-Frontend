@@ -132,7 +132,7 @@ const Sliderreviews = ({ reviews }) => {
                   <span className="text-muted"> {obj.review}</span>
                   <br />
                   <StarRatings
-                    rating={4}
+                    rating={Number(obj.star)}
                     starRatedColor="gold"
                     // changeRating={handleChangeRating}
                     numberOfStars={5}

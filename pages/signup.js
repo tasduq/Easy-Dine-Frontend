@@ -56,7 +56,7 @@ const Signup = () => {
     return test;
   };
   return (
-    <div>
+    <div className="container">
       <div>
         <div className="row mt-5">
           <div className="col-1 col-md-3"></div>

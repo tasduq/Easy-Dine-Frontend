@@ -94,7 +94,7 @@ const Navbar = () => {
                   href="/"
                 >
                   <img
-                    style={{ height: "50px" }}
+                    style={{ height: "40px" }}
                     src="/static/images/logofinal1.png"
                   />
                 </Link>
@@ -173,7 +173,7 @@ const Navbar = () => {
                   href="/"
                 >
                   <img
-                    style={{ height: "50px" }}
+                    style={{ height: "40px" }}
                     src="/static/images/logofinal1.png"
                   />
                 </Link>
@@ -295,7 +295,7 @@ const Navbar = () => {
                   href="/"
                 >
                   <img
-                    style={{ height: "50px" }}
+                    style={{ height: "40px" }}
                     src="/static/images/logofinal1.png"
                   />
                 </Link>
@@ -358,7 +358,7 @@ const Navbar = () => {
                   href="/"
                 >
                   <img
-                    style={{ height: "50px" }}
+                    style={{ height: "40px" }}
                     src="/static/images/logofinal1.png"
                   />
                 </Link>

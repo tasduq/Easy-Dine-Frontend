@@ -51,7 +51,7 @@ export default function Bucket() {
       </Button> */}
       <Badge
         onClick={handleClickOpen}
-        className="mx-3 mt-3 "
+        className="mx-3 mt-2 "
         badgeContent={bucketItemCount}
         color="secondary"
       >
