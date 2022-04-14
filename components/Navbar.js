@@ -30,7 +30,7 @@ const pagesForAdmin = [
   "QR",
 ];
 const pages = ["Menu"];
-const settings = ["Profile", "Logout"];
+const settings = ["Logout"];
 
 const Navbar = () => {
   const { loggedIn, loggedinUser, handleLogout } = useAuth();
