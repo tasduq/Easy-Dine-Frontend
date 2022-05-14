@@ -152,7 +152,12 @@ export default function Menuitempage({ data }) {
                       />
                     </div>
                     <button className="btn btn-primary mt-3">
-                      <ViewInArIcon /> Experience Dish in AR
+                      <a
+                        href="https://tasduq.github.io/LearnXR/start/lecture3_11/"
+                        class="button"
+                      >
+                        <ViewInArIcon /> Experience Dish in AR
+                      </a>
                     </button>
                   </div>
                 </div>
