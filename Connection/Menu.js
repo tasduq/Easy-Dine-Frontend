@@ -67,6 +67,14 @@ const editItem = async (data) => {
   return res;
 };
 
+const translateMenuItem = async (data) => {
+  console.log(data);
+  let res;
+  res = await axios.post(`${url}/api/menu/translatemenuitem`, data);
+  console.log(res);
+  return res;
+};
+
 export {
   getMenu,
   addMenu,
@@ -76,4 +84,5 @@ export {
   deleteItem,
   deleteSection,
   editItem,
+  translateMenuItem,
 };
