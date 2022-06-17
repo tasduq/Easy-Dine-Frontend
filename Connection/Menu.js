@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// let url = "http://localhost:3001";
-let url = "https://easydinebackend.herokuapp.com";
+let url = "http://localhost:3001";
+// let url = "https://easydinebackend.herokuapp.com";
 
 const getMenu = async () => {
   // console.log(data);

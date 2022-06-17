@@ -226,7 +226,7 @@ const Navbar = () => {
                     <Tooltip title="Open settings">
                       <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                         <Avatar
-                          alt="Remy Sharp"
+                          alt={window.localStorage.getItem("username") ? window.localStorage.getItem("username") : "O" }
                           src="/static/images/avatar/2.jpg"
                         />
                       </IconButton>
@@ -385,7 +385,7 @@ const Navbar = () => {
                   <Tooltip title="Open settings">
                     <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                       <Avatar
-                        alt="Remy Sharp"
+                        alt={window.localStorage.getItem("username") ? window.localStorage.getItem("username") : "O" }
                         src="/static/images/avatar/2.jpg"
                       />
                     </IconButton>

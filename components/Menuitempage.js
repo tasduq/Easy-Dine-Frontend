@@ -39,6 +39,12 @@ export default function Menuitempage({ data }) {
   const [selectedLang, setSelectedLang] = useState("en");
   const [translated, setTranslated] = useState(false);
   const [translatedText, setTranslatedText] = useState("");
+  const [words , setWords] = useState({
+    description : "Description",
+    ingredients : "Ingredients",
+    nutrition : "Nutrition",
+    price : "Price"
+  })
 
   // useEffect(() => {}, []);
 
@@ -69,6 +75,10 @@ export default function Menuitempage({ data }) {
       itemName: data.itemName,
       description: data.description,
       ingredients: data.ingredients,
+     descriptionWord : words.description,
+     ingredientsWord : words.ingredients,
+     priceWord : words.price,
+     nutritionsWord : words.nutrition,
       langCode,
     });
     console.log(res);
@@ -180,23 +190,23 @@ export default function Menuitempage({ data }) {
                       className="mt-5"
                       style={{ backgroundColor: "#E6034D" }}
                     />
-                    <h3>Description</h3>
+                    <h3>{translated ? translatedText.descriptionWord :words.description}</h3>
                     <p className="mb-5">
                       {translated
                         ? translatedText.description
                         : data?.description}
                     </p>
                     <hr style={{ backgroundColor: "#E6034D" }} />
-                    <h4 className="mb-5">Price : {data.price}</h4>
+                    <h4 className="mb-5">{translated ? translatedText.priceWord :words.price} : {data.price}</h4>
                     <hr style={{ backgroundColor: "#E6034D" }} />
-                    <h3>Ingredients</h3>
+                    <h3>{translated ? translatedText.ingredientsWord :words.ingredients}</h3>
                     <p className="mb-5">
                       {translated
                         ? translatedText.ingredients
                         : data.ingredients}
                     </p>
                     <hr style={{ backgroundColor: "#E6034D" }} />
-                    <h3>Neutritons</h3>
+                    <h3>{translated ? translatedText.nutritionsWord :words.nutrition}</h3>
                     {translated
                       ? translatedText.ingredients
                           .split(",")
