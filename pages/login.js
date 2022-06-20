@@ -147,9 +147,9 @@ const Login = () => {
             </div>
             <p className="text-danger">
               {" "}
-              <Link style={{ textDecoration: "none" }} href="/forgot">
+              {/* <Link style={{ textDecoration: "none" }} href="/forgot">
                 Forgot Password?
-              </Link>
+              </Link> */}
             </p>
             {/* <p className="text-danger">
               {" "}
